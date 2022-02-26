@@ -1,0 +1,11 @@
+
+/run/initialize
+
+
+# Visualization setting
+#/control/execute  st_gamma4MeV_400_field300_p2_step.mac
+/control/execute run1.mac
+
+#/run/beamOn 100
+
+#/control/execute vis.mac
